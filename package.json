@@ -1,0 +1,26 @@
+{
+  "name": "reactcurse",
+  "version": "1.0.0",
+  "description": "reactCurse",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js, html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdes86/reactCurse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valdes86/reactCurse/issues"
+  },
+  "homepage": "https://github.com/valdes86/reactCurse#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "prettier": "^2.2.1"
+  }
+}
